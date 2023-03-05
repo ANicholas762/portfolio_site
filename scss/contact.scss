@@ -1,0 +1,112 @@
+.contact_hero {
+    position: absolute;
+    width: 340px;
+    height: 440px;
+    // background-color: orange;
+    top: 200px;
+    left: 360px;
+
+    background-image: url(../images/downtown_indy.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #a7938e;
+}
+
+.contact_info {
+    position: absolute;
+    width: 340px;
+    height: 140px;
+    // background-color: orangered;
+    top: 680px;
+    left: 360px;
+
+    p {
+        font-family: Quicksand-Light;
+        font-size: 20px;
+    }
+}
+
+
+.ttl_tag2 {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    // background-color: orange;
+    top: 180px;
+    left: 840px;
+
+    font-family: Quicksand-Light;
+    font-size: 34px;
+}
+
+.name_boxes {
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    // background-color: orangered;
+    top: 300px;
+    left: 800px;
+    display: flex;
+    justify-content: space-between;
+
+    input {
+        width: 240px;
+        height: 42px;
+        border: 2px solid #a7938e;
+    }
+}
+
+.email {
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    // background-color: orangered;
+    top: 370px;
+    left: 800px;
+
+    input {
+        width: 500px;
+        height: 42px;
+        border: 2px solid #a7938e;
+    }
+}
+
+.message {
+    position: absolute;
+    width: 500px;
+    height: 140px;
+    // background-color: orangered;
+    top: 440px;
+    left: 800px;
+
+    input {
+        width: 500px;
+        height: 140px;
+        border: 2px solid #a7938e;
+    }
+}
+
+.subBtn {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 940px;
+
+    a {
+        color: #000;
+        font-family: Quicksand-Light;
+    }
+    
+    button {
+        padding: 6px 80px;
+        border-radius: 20px;
+        border: 2px solid #a7938e;
+        font-size: 18px;
+        background-color: #efe7e5;
+    }
+
+    button:hover{
+        background-color: #a7938e;
+        color: whitesmoke;
+    }
+}

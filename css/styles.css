@@ -1,0 +1,521 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #efe7e5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Quicksand-Regular;
+  src: url(../css/fonts/Quicksand-Regular.ttf);
+}
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url(../css/fonts/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: Quicksand-Semi-Bold;
+  src: url(../css/fonts/Quicksand-SemiBold.ttf);
+}
+@font-face {
+  font-family: Quicksand-Light;
+  src: url(../css/fonts/Quicksand-Light.ttf);
+}
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url(../css/fonts/Quicksand-Medium.ttf);
+}
+nav {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav a {
+  padding: 0 24px;
+  text-decoration: none;
+  font-family: Quicksand-Light;
+  font-size: 18px;
+  color: #000;
+}
+nav .links {
+  position: absolute;
+  left: 720px;
+}
+nav .contactBtn {
+  position: relative;
+  margin-left: 1480px;
+}
+nav .contactBtn a {
+  color: #000;
+  font-family: Quicksand-Light;
+}
+nav .contactBtn button {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 2px solid #a7938e;
+  font-size: 18px;
+  background-color: #efe7e5;
+}
+nav .contactBtn button:hover {
+  background-color: #a7938e;
+  color: whitesmoke;
+}
+nav .nav_logo_tag {
+  width: 38px;
+  height: 38px;
+  background-image: url(../images/logo_2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home_text {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home_text h1 {
+  position: absolute;
+  font-family: Quicksand-Light;
+  font-size: 60px;
+  left: 710px;
+  top: 140px;
+  color: #7e7e7e;
+}
+.home_text .home_tag {
+  position: absolute;
+  font-family: Quicksand-Light;
+  font-size: 22px;
+  left: 680px;
+  top: 220px;
+}
+.home_text .meetBtn {
+  position: relative;
+  margin-left: 160px;
+}
+.home_text .meetBtn a {
+  color: #000;
+  text-decoration: none;
+  font-family: Quicksand-Light;
+}
+.home_text .meetBtn button {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 2px solid #a7938e;
+  font-size: 18px;
+  background-color: #efe7e5;
+}
+.home_text .meetBtn button:hover {
+  background-color: #a7938e;
+  color: whitesmoke;
+}
+
+.hero .cloud_1 {
+  width: 400px;
+  height: 200px;
+  background-image: url(../images/clouds.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 1400px;
+  margin-top: 60px;
+}
+.hero .cloud_2 {
+  width: 400px;
+  height: 200px;
+  background-image: url(../images/clouds.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 1200px;
+  margin-top: 10px;
+}
+.hero .cloud_3 {
+  width: 400px;
+  height: 200px;
+  background-image: url(../images/clouds.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+.hero .cloud_4 {
+  width: 400px;
+  height: 200px;
+  background-image: url(../images/clouds.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -60px;
+  margin-top: -400px;
+}
+.hero .cloud_5 {
+  width: 400px;
+  height: 200px;
+  background-image: url(../images/clouds.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 1400px;
+  margin-top: 100px;
+}
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .copy {
+  position: absolute;
+  width: 340px;
+  height: 30px;
+  left: 40px;
+}
+footer .copy h2 {
+  font-family: Quicksand-Light;
+  font-size: 18px;
+  color: #000;
+}
+footer .icons {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 1600px;
+  top: 24px;
+}
+footer .icons .fb {
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/facebook.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer .icons .insta {
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/instagram.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer .icons .linkedin {
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/linkedin.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -4px;
+}
+footer .footer_logo_tag {
+  width: 38px;
+  height: 38px;
+  background-image: url(../images/logo_2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 870px;
+}
+
+.name_tags {
+  position: absolute;
+  top: 100px;
+}
+.name_tags .name_1 h2 {
+  font-family: Quicksand-Light;
+  font-weight: lighter;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-left: 180px;
+}
+.name_tags .name_2 h2 {
+  font-family: Quicksand-Light;
+  font-weight: lighter;
+  font-size: 60px;
+  margin-left: 240px;
+  margin-top: -20px;
+}
+
+.about_hero {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  top: -600px;
+  left: 1020px;
+  border-radius: 50%;
+  background-image: url(../images/about_img.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bio {
+  position: absolute;
+  width: 640px;
+  height: 400px;
+  left: 300px;
+  top: 340px;
+}
+.bio p {
+  font-family: Quicksand-Light;
+  font-size: 18px;
+}
+
+.project_1 {
+  position: absolute;
+  width: 420px;
+  height: 240px;
+  background-color: greenyellow;
+  top: 240px;
+  left: 300px;
+  display: block;
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #a7938e;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.project_1:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text a {
+  font-family: Quicksand-Light;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.ttl_tag {
+  position: absolute;
+  left: 790px;
+  top: 120px;
+}
+.ttl_tag h2 {
+  font-family: Quicksand-Light;
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.rip_hero {
+  position: absolute;
+  width: 600px;
+  height: 700px;
+  background-color: purple;
+  top: 140px;
+  left: 200px;
+  background-image: url(../images/rip_collage.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.info {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  top: 200px;
+  left: 900px;
+}
+.info h2 {
+  font-family: Quicksand-Light;
+  font-size: 34px;
+  text-decoration: underline;
+}
+
+.info_p {
+  position: absolute;
+  width: 640px;
+  height: 400px;
+  top: 300px;
+  left: 900px;
+}
+.info_p p {
+  font-family: Quicksand-Light;
+  font-size: 20px;
+}
+.info_p li {
+  font-family: Quicksand-Light;
+  font-size: 20px;
+}
+
+.backBtn {
+  position: relative;
+  margin-top: -80px;
+  margin-left: 1360px;
+}
+.backBtn a {
+  color: #000;
+  text-decoration: none;
+  font-family: Quicksand-Light;
+}
+.backBtn button {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 2px solid #a7938e;
+  font-size: 18px;
+  background-color: #efe7e5;
+}
+.backBtn button:hover {
+  background-color: #a7938e;
+  color: whitesmoke;
+}
+
+.contact_hero {
+  position: absolute;
+  width: 340px;
+  height: 440px;
+  top: 200px;
+  left: 360px;
+  background-image: url(../images/downtown_indy.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #a7938e;
+}
+
+.contact_info {
+  position: absolute;
+  width: 340px;
+  height: 140px;
+  top: 680px;
+  left: 360px;
+}
+.contact_info p {
+  font-family: Quicksand-Light;
+  font-size: 20px;
+}
+
+.ttl_tag2 {
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  top: 180px;
+  left: 840px;
+  font-family: Quicksand-Light;
+  font-size: 34px;
+}
+
+.name_boxes {
+  position: absolute;
+  width: 500px;
+  height: 40px;
+  top: 300px;
+  left: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.name_boxes input {
+  width: 240px;
+  height: 42px;
+  border: 2px solid #a7938e;
+}
+
+.email {
+  position: absolute;
+  width: 500px;
+  height: 40px;
+  top: 370px;
+  left: 800px;
+}
+.email input {
+  width: 500px;
+  height: 42px;
+  border: 2px solid #a7938e;
+}
+
+.message {
+  position: absolute;
+  width: 500px;
+  height: 140px;
+  top: 440px;
+  left: 800px;
+}
+.message input {
+  width: 500px;
+  height: 140px;
+  border: 2px solid #a7938e;
+}
+
+.subBtn {
+  position: relative;
+  margin-top: -200px;
+  margin-left: 940px;
+}
+.subBtn a {
+  color: #000;
+  font-family: Quicksand-Light;
+}
+.subBtn button {
+  padding: 6px 80px;
+  border-radius: 20px;
+  border: 2px solid #a7938e;
+  font-size: 18px;
+  background-color: #efe7e5;
+}
+.subBtn button:hover {
+  background-color: #a7938e;
+  color: whitesmoke;
+}

@@ -1,0 +1,72 @@
+.rip_hero {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    background-color: purple;
+    top: 140px;
+    left: 200px;
+
+    background-image: url(../images/rip_collage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    // background-color: orange;
+    top: 200px;
+    left: 900px;
+
+    h2{
+        font-family: Quicksand-Light;
+        font-size: 34px;
+        text-decoration: underline;
+    }
+}
+
+.info_p {
+    position: absolute;
+    width: 640px;
+    height: 400px;
+    // background-color: orange;
+    top: 300px;
+    left: 900px;
+
+    p {
+        font-family: Quicksand-Light;
+        font-size: 20px;
+    }
+
+    li {
+        font-family: Quicksand-Light;
+        font-size: 20px;
+    }
+}
+
+.backBtn {
+    position: relative;
+    margin-top: -80px;
+    margin-left: 1360px;
+
+    a {
+        color: #000;
+        text-decoration: none;
+        font-family: Quicksand-Light;
+    }
+    
+    button {
+        padding: 6px 16px;
+        border-radius: 20px;
+        border: 2px solid #a7938e;
+        font-size: 18px;
+        background-color: #efe7e5;
+    }
+
+    button:hover{
+        background-color: #a7938e;
+        color: whitesmoke;
+    }
+}

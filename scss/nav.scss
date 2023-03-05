@@ -1,0 +1,55 @@
+nav {
+    width: 100%;
+    height: 60px;
+    // background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        padding: 0 24px;
+        text-decoration: none;
+        font-family: Quicksand-Light;
+        font-size: 18px;
+        color: #000;
+    }
+
+    .links {
+        position: absolute;
+        left: 720px;
+    }
+
+    .contactBtn {
+        position: relative;
+        margin-left: 1480px;
+
+        a {
+            color: #000;
+            font-family: Quicksand-Light;
+        }
+        
+        button {
+            padding: 6px 16px;
+            border-radius: 20px;
+            border: 2px solid #a7938e;
+            font-size: 18px;
+            background-color: #efe7e5;
+        }
+
+        button:hover{
+            background-color: #a7938e;
+            color: whitesmoke;
+        }
+    }
+
+    .nav_logo_tag {
+        width: 38px;
+        height: 38px;
+        background-image: url(../images/logo_2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+}

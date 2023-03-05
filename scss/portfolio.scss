@@ -1,0 +1,59 @@
+.project_1 {
+    position: absolute;
+    width: 420px;
+    height: 240px;
+    background-color: greenyellow;
+    top: 240px;
+    left: 300px;
+    display: block;
+
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #a7938e;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+
+  .project_1:hover .overlay {
+    width: 100%;
+  }
+
+  .text {
+    white-space: nowrap; 
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    a {
+        font-family: Quicksand-Light;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+  }
+
+.ttl_tag {
+    position: absolute;
+    left: 790px;
+    top: 120px;
+
+    h2 {
+        font-family: Quicksand-Light;
+        font-weight: lighter;
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,37 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ background-color: #efe7e5;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(../css/fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../css/fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Semi-Bold;
+    src: url(../css/fonts/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Light;
+    src: url(../css/fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Medium;
+    src: url(../css/fonts/Quicksand-Medium.ttf);
+}

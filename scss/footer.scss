@@ -1,0 +1,77 @@
+footer {
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:80px;
+    width:100%;
+    // background:#999;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+    .copy {
+        position: absolute;
+        width: 340px;
+        height: 30px;
+        //  background-color: lavender;
+        left: 40px;
+
+        h2 {
+            font-family: Quicksand-Light;
+            font-size: 18px;
+            color: #000;
+        }
+    }
+
+    .icons {
+        position: absolute;
+        width: 140px;
+        height: 30px;
+        // background-color: lightgoldenrodyellow;
+        display: flex;
+        justify-content: space-between;
+        left: 1600px;
+        top: 24px;
+
+        .fb {
+            height: 30px;
+            width: 30px;
+            // background-color: goldenrod;
+            background-image: url(../images/facebook.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .insta {
+            height: 30px;
+            width: 30px;
+            // background-color: goldenrod;
+            background-image: url(../images/instagram.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .linkedin {
+            height: 30px;
+            width: 30px;
+            // background-color: goldenrod;
+            background-image: url(../images/linkedin.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: -4px;
+        }
+    }
+
+    .footer_logo_tag{
+        width: 38px;
+        height: 38px;
+        background-image: url(../images/logo_2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 870px;
+    }
+}

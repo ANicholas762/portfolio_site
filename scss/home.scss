@@ -1,0 +1,114 @@
+.home_text {
+    display: block;
+    justify-content: center;
+
+    h1 {
+        position: absolute;
+        font-family: Quicksand-Light;
+        font-size: 60px;
+        left: 710px;
+        top: 140px;
+        color:#7e7e7e;
+    }
+    
+    .home_tag {
+        position: absolute;
+        font-family: Quicksand-Light;
+        font-size: 22px;
+        left: 680px;
+        top: 220px;
+    }
+
+    .meetBtn {
+        position: relative;
+        margin-left: 160px;
+
+        a {
+            color: #000;
+            text-decoration: none;
+            font-family: Quicksand-Light;
+        }
+        
+        button {
+            padding: 6px 16px;
+            border-radius: 20px;
+            border: 2px solid #a7938e;
+            font-size: 18px;
+            background-color: #efe7e5;
+        }
+
+        button:hover{
+            background-color: #a7938e;
+            color: whitesmoke;
+        }
+    }
+}
+
+// .logo {
+//     position: absolute;
+//     width: 400px;
+//     height: 800px;
+//     background-image: url(../images/logo_1.png);
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     left: 700px;
+// }
+
+.hero {
+    .cloud_1 {
+        width: 400px;
+        height: 200px;
+        background-image: url(../images/clouds.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 1400px;
+        margin-top: 60px;
+    }
+
+    .cloud_2 {
+        width: 400px;
+        height: 200px;
+        background-image: url(../images/clouds.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 1200px;
+        margin-top: 10px;
+    }
+
+    .cloud_3 {
+        width: 400px;
+        height: 200px;
+        background-image: url(../images/clouds.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 160px;
+        margin-top: 20px;
+    }
+
+    .cloud_4 {
+        width: 400px;
+        height: 200px;
+        background-image: url(../images/clouds.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: -60px;
+        margin-top: -400px;
+    }
+
+    .cloud_5 {
+        width: 400px;
+        height: 200px;
+        background-image: url(../images/clouds.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 1400px;
+        margin-top: 100px;
+    }
+
+}
