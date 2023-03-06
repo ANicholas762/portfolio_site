@@ -295,6 +295,17 @@ footer .footer_logo_tag {
   font-family: Quicksand-Light;
   font-size: 18px;
 }
+.bio h4 {
+  font-family: Quicksand-Light;
+  font-size: 18px;
+  color: #000;
+}
+.bio a {
+  font-family: Quicksand-Light;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
 
 .project_1 {
   position: absolute;
