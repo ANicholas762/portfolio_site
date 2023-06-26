@@ -2,7 +2,7 @@
     position: absolute;
     width: 420px;
     height: 240px;
-    background-color: greenyellow;
+    // background-color: greenyellow;
     top: 240px;
     left: 300px;
     display: block;
@@ -56,4 +56,25 @@
         font-weight: lighter;
         font-size: 32px;
     }
+}
+
+// project 2 
+
+.project_2 {
+  position: absolute;
+  width: 420px;
+  height: 240px;
+  // background-color: greenyellow;
+  top: 240px;
+  left: 760px;
+  display: block;
+
+  background-image: url(../images/Screenshot\ 2023-06-25\ at\ 2.58.49\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project_2:hover .overlay {
+  width: 100%;
 }
